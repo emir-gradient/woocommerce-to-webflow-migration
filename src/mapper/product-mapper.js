@@ -1,5 +1,3 @@
-import { testData } from "../constants/test-data.js";
-
 export class ProductMapper {
   toCreateWebflowProductDto(wooCommerceProduct, wooCommerceStoreCurrencyCode) {
     return {
